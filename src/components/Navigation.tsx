@@ -29,8 +29,8 @@ const Navigation: FunctionComponent<Props> = (props) => {
           className={itemClassName}
         />
         <NavItem
-          title="About"
-          path="#about"
+          title="Characters"
+          path="#screenshots"
           closeMenu={closeMenu}
           className={itemClassName}
         />
@@ -53,7 +53,7 @@ const Navigation: FunctionComponent<Props> = (props) => {
           className={itemClassName}
         />
       </ul>
-      <a
+      {/* <a
         href="#buy-cavon"
         aria-label="Buy cavon"
         className={`btn-primary cursor-pointer px-12 ${buttonClassName}`}
@@ -62,7 +62,7 @@ const Navigation: FunctionComponent<Props> = (props) => {
         }}
       >
         Buy now
-      </a>
+      </a> */}
     </nav>
   );
 };

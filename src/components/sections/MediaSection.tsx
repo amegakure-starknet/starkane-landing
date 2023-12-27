@@ -5,10 +5,10 @@ const MediaSection = () => {
   return (
     <Section sectionId="media" className="bg-surface py-10 text-on-surface">
       <Wrapper className="text-center ">
-        <h1 className="title-1">CAVON MEDIA</h1>
+        <h1 className="title-1">STARKANE MEDIA</h1>
         <div className="">
           <iframe
-            src="https://www.youtube.com/embed/j2mjr2lNcAk"
+            src="https://www.youtube.com/embed/6YnxuDwMUlw?si=NFIDOkP44Mjt-JDv"
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

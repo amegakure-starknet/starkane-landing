@@ -14,7 +14,7 @@ const Home: NextPage = () => {
       <HeroSection />
 
       {/* About Us section */}
-      <AboutSection />
+      {/* <AboutSection /> */}
 
       {/* Screenshot section */}
       <ScreenshotSection />

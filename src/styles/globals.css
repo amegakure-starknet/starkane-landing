@@ -5,17 +5,22 @@
 @layer base {
   :root {
     /* Colors */
-    --color-dark-900: #030303;
+    --color-dark-900: #90643c;
+    --color-dark-700: #6c5c42;
+    --color-dark-300: #d0b474;
+    /* --color-dark-900: #030303;
     --color-dark-700: #3f3f46;
-    --color-dark-300: #d4d4d8;
+    --color-dark-300: #d4d4d8; */
     --color-white: #ffffff;
 
     /* Design colors */
-    --color-primary: #6100ff;
-    --color-primary-variant: #4d00cc;
+    --color-primary: #f8e4d4;
+    --color-primary-variant: #f8e4d4;
     --color-on-primary: var(--color-white);
-    --color-secondary: #3273db;
-    --color-secondary-variant: #3273db;
+    --color-secondary: #6c5444;
+    --color-secondary-variant: #6c5444;
+    /* --color-secondary: #3273db;
+    --color-secondary-variant: #3273db; */
     --color-on-secondary: var(--color-dark-900);
 
     --color-background: var(--color-dark-900);

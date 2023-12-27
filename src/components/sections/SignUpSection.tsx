@@ -1,15 +1,15 @@
 import Wrapper from "components/containers/layouts/Wrapper";
-import ImageSection from "components/containers/pagesections/ImageSection";
-import { default as heroImage } from "../../../public/images/hero.png";
+// import ImageSection from "components/containers/pagesections/ImageSection";
+import Section from "components/containers/pagesections/Section";
+// import { default as heroImage } from "../../../public/images/starkane-rend.png";
+
 const SignUpSection = () => {
   return (
-    <ImageSection
-      image={heroImage}
+    <Section
       className="bg-black bg-opacity-70"
-      height="h-[500px]"
       sectionId="sign-up"
     >
-      <div className="absolute top-[50%] w-full translate-y-[-50%]">
+      {/* <div className="absolute top-[50%] w-full translate-y-[-50%]"> */}
         <Wrapper className="h-full space-y-20 text-center text-white">
           <div className="space-y-5">
             <h1 className="title-page mx-auto max-w-4xl">
@@ -39,8 +39,8 @@ const SignUpSection = () => {
             </div>
           </form>
         </Wrapper>
-      </div>
-    </ImageSection>
+      {/* </div> */}
+    </Section>
   );
 };
 

@@ -21,6 +21,14 @@ const ImageSection: ComponentType<Props> = ({
     <Section padding={false} sectionId={sectionId}>
       <div className={`relative w-full ${height}`}>
         <Image src={image} alt="Image" className="image" layout="fill" />
+        {/* <video
+          src="/images/monav.webm"
+          autoPlay
+          loop
+          muted
+          playsInline
+          preload="auto"
+        ></video> */}
         <div className={`absolute h-full w-full ${className}`}>{children}</div>
       </div>
     </Section>

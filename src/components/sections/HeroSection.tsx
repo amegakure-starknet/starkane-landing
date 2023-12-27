@@ -1,5 +1,5 @@
 import ImageSection from "components/containers/pagesections/ImageSection";
-import { default as heroImage } from "../../../public/images/hero.png";
+import { default as heroImage } from "../../../public/images/mona-derecha.png";
 
 const HeroSection = () => {
   return (
@@ -9,7 +9,7 @@ const HeroSection = () => {
       height="h-screen"
       sectionId="top"
     >
-      <div className="absolute left-[50%] bottom-[40%] m-auto translate-x-[-50%] space-y-6 text-center text-white sm:bottom-10">
+      {/* <div className="absolute left-[50%] bottom-[40%] m-auto translate-x-[-50%] space-y-6 text-center text-white sm:bottom-10">
         <p className="text-3xl font-bold">AVAILABLE NOW</p>
         <div className="flex flex-col items-center gap-6 sm:flex-row">
           <button aria-label="Go to Steam page" className="btn-primary text-xl">
@@ -22,7 +22,7 @@ const HeroSection = () => {
             BUY EPIC
           </button>
         </div>
-      </div>
+      </div> */}
     </ImageSection>
   );
 };
