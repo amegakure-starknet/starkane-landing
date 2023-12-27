@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import logoImage from "../../public/images/pickaxe.png";
+import logoImage from "../../public/images/starkane-rend.png";
 
 const Logo = () => {
   return (
@@ -9,8 +9,8 @@ const Logo = () => {
         aria-label="Go to home page"
         className={"flex h-full items-center gap-2 text-inherit"}
       >
-        <Image src={logoImage} alt="Cavon logo" width={50} height={50} />
-        <p className="text-4xl font-bold uppercase text-inherit">CAVON</p>
+        <Image src={logoImage} alt="Cavon logo" width={180} height={50} />
+        {/* <p className="text-4xl font-bold uppercase text-inherit">CAVON</p> */}
       </a>
     </Link>
   );
