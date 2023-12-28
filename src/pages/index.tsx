@@ -20,13 +20,13 @@ const Home: NextPage = () => {
       <ScreenshotSection />
 
       {/* Feature section */}
-      <FeatureSection />
+      {/* <FeatureSection /> */}
 
       {/* Media section */}
       <MediaSection />
 
       {/* Sign Up section */}
-      <SignUpSection />
+      {/* <SignUpSection /> */}
     </Page>
   );
 };

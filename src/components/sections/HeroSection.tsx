@@ -1,11 +1,11 @@
 import ImageSection from "components/containers/pagesections/ImageSection";
-import { default as heroImage } from "../../../public/images/mona-derecha.png";
+import { default as heroImage } from "../../../public/images/mona-derecha3.png";
 
 const HeroSection = () => {
   return (
     <ImageSection
       image={heroImage}
-      className="bg-black bg-opacity-50"
+      className="bg-black bg-opacity-25"
       height="h-screen"
       sectionId="top"
     >

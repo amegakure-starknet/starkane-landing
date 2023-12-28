@@ -15,7 +15,7 @@
 
     /* Design colors */
     --color-primary: #f8e4d4;
-    --color-primary-variant: #f8e4d4;
+    --color-primary-variant: #f0d4beed
     --color-on-primary: var(--color-white);
     --color-secondary: #6c5444;
     --color-secondary-variant: #6c5444;
@@ -123,6 +123,9 @@ p {
   @apply mb-6 text-5xl font-bold uppercase;
 }
 
+.title-15 {
+  @apply mb-6 text-5xl font-bold;
+}
 .title-2 {
   @apply mb-4 text-3xl font-bold uppercase;
 }

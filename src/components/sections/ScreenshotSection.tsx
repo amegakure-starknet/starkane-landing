@@ -13,11 +13,11 @@ const ScreenshotSection = () => {
   return (
     <Section
       sectionId="screenshots"
-      className="bg-surface py-20 text-center text-on-surface"
+      className="text-center text-white py-20 text-center"
       padding={false}
     >
       <Wrapper>
-        <h1 className="title-1">Characters</h1>
+        <h1 className="title-15">Characters</h1>
         <ImageCarousel>
           <SwiperSlide>
             <Screenshot image={image1} />
