@@ -46,12 +46,12 @@ const Navigation: FunctionComponent<Props> = (props) => {
           closeMenu={closeMenu}
           className={itemClassName}
         />
-        <NavItem
+        {/* <NavItem
           title="Sign Up"
           path="#sign-up"
           closeMenu={closeMenu}
           className={itemClassName}
-        />
+        /> */}
       </ul>
       {/* <a
         href="#buy-cavon"

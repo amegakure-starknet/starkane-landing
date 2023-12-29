@@ -19,18 +19,36 @@ const ImageSection: ComponentType<Props> = ({
 }) => {
   return (
     <Section padding={false} sectionId={sectionId}>
-      <div className={`relative w-full ${height}`}>
-        <Image src={image} alt="Image" className="image" layout="fill" />
-        {/* <video
-          src="/images/monav.webm"
-          autoPlay
-          loop
-          muted
-          playsInline
-          preload="auto"
-        ></video> */}
-        <div className={`absolute h-full w-full ${className}`}>{children}</div>
-      </div>
+        <main className="main">
+            <div className="contents">
+              <a
+                // className={"flex h-full items-center gap-2 text-inherit"}
+                className={"flex items-center gap-2 text-inherit"}
+              >
+                <Image src="/images/starkane-rend.png" alt="Cavon logo" width={440} height={150} />
+              </a>
+                <div className="buttons">
+                  <a
+                    className={"flex items-center gap-2 text-inherit"}
+                  >
+                    <Image src="/images/logo-unity.png" alt="Cavon logo" width={100} height={120} />
+                  </a>
+                  <a
+                    className={"flex items-center gap-2 text-inherit"}
+                  >
+                    <Image src="/images/logo-dojo.png" alt="Cavon logo" width={100} height={120} />
+                  </a>
+
+                </div>
+            </div>
+            <video
+                src="/images/init.mp4"
+                autoPlay
+                muted
+                loop
+                className="video"
+            />
+        </main>
     </Section>
   );
 };

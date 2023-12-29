@@ -21,7 +21,7 @@ const Page: FunctionComponent<Props> = (props) => {
         <meta name="description" content={description} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header />
+      {/* <Header /> */}
       <main id="home">{children}</main>
       <Footer />
     </>
