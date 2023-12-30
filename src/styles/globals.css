@@ -237,12 +237,7 @@ p {
 }
 
 .contents {
-  text-transform: uppercase;
-  color: white;
-  letter-spacing: 1.5rem;
-  font-weight: 500;
   padding: 2rem 0;
-  font-size: 2rem;
 }
 
 .buttons {

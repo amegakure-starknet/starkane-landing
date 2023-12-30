@@ -6,36 +6,38 @@ import { SwiperSlide } from "swiper/react";
 import image1 from "../../../public/images/gameplay/mona-fondo.png";
 import image2 from "../../../public/images/gameplay/PJ1.png";
 import image3 from "../../../public/images/gameplay/mona2.png";
+import { CharacterSelected } from 'components/CharacterSelected';
+import { CharactersList } from 'components/CharactersList';
+import type { Character } from 'types';
+import { type ReactNode, useState } from 'react';
+
 // import image4 from "../../../public/images/gameplay/shop.png";
 // import image5 from "../../../public/images/gameplay/wizard_npc.png";
 
+const ContentWrapper = ({ children }: { children: ReactNode }) => (
+  <span className="flex flex-1 self-stretch justify-center transition-all lg:self-auto xl:max-w-[40%]">
+    {children}
+  </span>
+);
+
 const ScreenshotSection = () => {
+  const [selectedCharacter, setSelectedCharacter] = useState<Character>();
+
   return (
     <Section
       sectionId="screenshots"
-      className="text-center text-white py-20 text-center"
+      className="py-10 flex flex-col flex-1 items-center justify-center gap-12 transition-all 2xl:-mt-[120px] lg:flex-row"
       padding={false}
     >
-      <Wrapper>
-        <h1 className="title-15">Characters</h1>
-        <ImageCarousel>
-          <SwiperSlide>
-            <Screenshot image={image1} />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Screenshot image={image2} />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Screenshot image={image3} />
-          </SwiperSlide>
-          {/* <SwiperSlide>
-            <Screenshot image={image4} />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Screenshot image={image5} />
-          </SwiperSlide> */}
-        </ImageCarousel>
-      </Wrapper>
+      <ContentWrapper>
+        <CharactersList
+          selectedCharacter={selectedCharacter}
+          onSelect={setSelectedCharacter}
+        />
+      </ContentWrapper>
+      <ContentWrapper>
+        <CharacterSelected character={selectedCharacter} />
+      </ContentWrapper>
     </Section>
   );
 };
