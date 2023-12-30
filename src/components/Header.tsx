@@ -59,7 +59,7 @@ const Header = () => {
       </header>
 
       {/* Mobile navbar */}
-      <MobileNav mobile={mobile} handleMobile={handleMobile} />
+      {/* <MobileNav mobile={mobile} handleMobile={handleMobile} /> */}
     </>
   );
 };
