@@ -3,7 +3,7 @@ import { ComponentType, ReactNode } from "react";
 import Section from "./Section";
 
 interface Props {
-  image: StaticImageData;
+  image?: StaticImageData;
   children?: ReactNode;
   className?: string;
   height?: string;
