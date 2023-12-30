@@ -12,7 +12,7 @@ const CharacterSelected = ({ character }: CharacterSelectedProps) => (
     {character ? (
       <CharacterDetail character={character} />
     ) : (
-      <h1 className="text-3xl">Select an character to view your detail</h1>
+      <h1 className="text-3xl w-[460px] flex-1 flex-col items-center ">Select an character to view your detail</h1>
     )}
   </div>
 );

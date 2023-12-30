@@ -1,15 +1,9 @@
-import Wrapper from "components/containers/layouts/Wrapper";
-import Section from "components/containers/pagesections/Section";
-import ImageCarousel from "components/ImageCarousel";
-import Screenshot from "components/Screenshot";
-import { SwiperSlide } from "swiper/react";
-import image1 from "../../../public/images/gameplay/mona-fondo.png";
-import image2 from "../../../public/images/gameplay/PJ1.png";
-import image3 from "../../../public/images/gameplay/mona2.png";
-import { CharacterSelected } from 'components/CharacterSelected';
+import fondo from "../../../public/images/fondo-screen.jpg";
+import { CharacterDetail } from 'components/CharacterSelected/CharacterDetail';
 import { CharactersList } from 'components/CharactersList';
 import type { Character } from 'types';
 import { type ReactNode, useState } from 'react';
+import ImageSection from "components/containers/pagesections/ImageSection";
 
 // import image4 from "../../../public/images/gameplay/shop.png";
 // import image5 from "../../../public/images/gameplay/wizard_npc.png";
@@ -24,21 +18,25 @@ const ScreenshotSection = () => {
   const [selectedCharacter, setSelectedCharacter] = useState<Character>();
 
   return (
-    <Section
+    <ImageSection
       sectionId="screenshots"
-      className="py-10 flex flex-col flex-1 items-center justify-center gap-12 transition-all 2xl:-mt-[120px] lg:flex-row"
-      padding={false}
+      image={fondo}
+      className="bg-black bg-opacity-20 flex flex-col flex-1 items-center justify-center transition-all lg:flex-row"
+      height="h-screen"
+      // className="flex flex-col flex-1 items-center justify-center gap-12 transition-all lg:flex-row"
+      // className="py-10 flex flex-col flex-1 items-center justify-center gap-12 transition-all 2xl:-mt-[120px] lg:flex-row"
+      // padding={false}
     >
-      <ContentWrapper>
+      <span className="flex flex-wrap flex-1 self-stretch justify-center transition-all pl-20 py-20">
         <CharactersList
           selectedCharacter={selectedCharacter}
           onSelect={setSelectedCharacter}
         />
-      </ContentWrapper>
-      <ContentWrapper>
-        <CharacterSelected character={selectedCharacter} />
-      </ContentWrapper>
-    </Section>
+      </span>
+      <span className="flex flex-1 self-stretch justify-center transition-all pr-20 py-10">
+        <CharacterDetail character={selectedCharacter} />
+      </span>
+    </ImageSection>
   );
 };
 
