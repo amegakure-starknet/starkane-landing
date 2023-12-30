@@ -9,7 +9,7 @@ interface Props {
 const Socials: FunctionComponent<Props> = ({ className, itemClassName }) => {
   return (
     <ul className={className}>
-      <li>
+      {/* <li>
         <a
           href="#"
           aria-label="Facebook"
@@ -17,8 +17,8 @@ const Socials: FunctionComponent<Props> = ({ className, itemClassName }) => {
         >
           <FaIcons.FaFacebookF />
         </a>
-      </li>
-      <li>
+      </li> */}
+      {/* <li>
         <a
           href="#"
           aria-label="Twitter"
@@ -26,8 +26,8 @@ const Socials: FunctionComponent<Props> = ({ className, itemClassName }) => {
         >
           <FaIcons.FaTwitter />
         </a>
-      </li>
-      <li>
+      </li> */}
+      {/* <li>
         <a
           href="#"
           aria-label="Youtube"
@@ -44,7 +44,7 @@ const Socials: FunctionComponent<Props> = ({ className, itemClassName }) => {
         >
           <FaIcons.FaInstagram />
         </a>
-      </li>
+      </li> */}
     </ul>
   );
 };

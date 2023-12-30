@@ -7,9 +7,9 @@ interface Props {
 
 const Screenshot: FunctionComponent<Props> = ({ image }) => {
   return (
-    <div className="h-[450px] w-[200px]">
+    // <div className="h-[450px] w-[200px]">
       <Image src={image} alt="Image" layout="fill" className="object-cover" />
-    </div>
+    // </div>
   );
 };
 

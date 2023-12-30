@@ -22,36 +22,36 @@ const Navigation: FunctionComponent<Props> = (props) => {
   return (
     <nav aria-label="main navigation" className={className}>
       <ul className={listClassName}>
-        <NavItem
+        {/* <NavItem
           title="Home"
           path="#home"
           closeMenu={closeMenu}
           className={itemClassName}
-        />
+        /> */}
         <NavItem
           title="Characters"
           path="#screenshots"
           closeMenu={closeMenu}
           className={itemClassName}
         />
-        <NavItem
+        {/* <NavItem
           title="Features"
           path="#features"
           closeMenu={closeMenu}
           className={itemClassName}
-        />
+        /> */}
         <NavItem
           title="Media"
           path="#media"
           closeMenu={closeMenu}
           className={itemClassName}
         />
-        <NavItem
+        {/* <NavItem
           title="Sign Up"
           path="#sign-up"
           closeMenu={closeMenu}
           className={itemClassName}
-        />
+        /> */}
       </ul>
       {/* <a
         href="#buy-cavon"

@@ -5,7 +5,7 @@ const MediaSection = () => {
   return (
     <Section sectionId="media" className="bg-surface py-10 text-on-surface">
       <Wrapper className="text-center ">
-        <h1 className="title-1">STARKANE MEDIA</h1>
+        <h1 className="title-15">Trailer</h1>
         <div className="">
           <iframe
             src="https://www.youtube.com/embed/6YnxuDwMUlw?si=NFIDOkP44Mjt-JDv"
