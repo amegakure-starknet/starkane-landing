@@ -2,27 +2,27 @@ import type { Character } from 'types';
 
 export const charactersList: Character[] = [
   {
-    name: 'Ciclope',
+    name: 'Mona',
     description:
-      'Ele tem o poder de disparar rajadas ópticas por um acidente que aconteceu com ele quando criança, mas não consegue controlá-los',
-    thumbnailUrl: '/assets/characters/ciclope-thumbnail.jpg',
-    imageUrl: '/assets/characters/ciclope.png',
-    imageAlt: 'Personagem Ciclope',
+      '',
+    thumbnailUrl: '/images/gameplay/mona-fs.png',
+    imageUrl: '/images/gameplay/mona-fondo.png',
+    imageAlt: 'Character Mona',
   },
   {
-    name: 'Magneto',
+    name: 'Archer',
     description:
-      'Ele tem o poder de magnetocinese, ou seja, controlar objetos de metal e criar campos magnéticos',
-    thumbnailUrl: '/assets/characters/magneto-thumbnail.jpg',
-    imageUrl: '/assets/characters/magneto.png',
-    imageAlt: 'Personagem Nagneto',
+      '',
+    thumbnailUrl: '/images/gameplay/archer.png',
+    imageUrl: '/images/gameplay/archer-p.png',
+    imageAlt: 'Character Archer',
   },
   {
-    name: 'noturno',
+    name: 'Cleric',
     description:
-      'Ele é um mutante que nasceu com cauda, orelhas pontudas e com o poder de se Teletransportar',
-    thumbnailUrl: '/assets/characters/noturno-thumbnail.jpg',
-    imageUrl: '/assets/characters/noturno.png',
+      '',
+    thumbnailUrl: '/images/gameplay/mona-fs2.png',
+    imageUrl: '/images/gameplay/moar.png',
     imageAlt: 'Personagem Noturno',
   },
   {

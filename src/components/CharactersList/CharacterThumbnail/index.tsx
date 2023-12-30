@@ -26,7 +26,7 @@ const CharacterThumbnail = ({
         alt={character.imageAlt}
         layout="fill"
         priority
-        sizes="120px"
+        // sizes="120px"
       />
     </div>
   </li>

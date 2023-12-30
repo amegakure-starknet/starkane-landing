@@ -15,7 +15,7 @@ const CharacterDetail = ({ character }: CharacterDetailProps) => (
       width={430}
       height={430}
       className="object-cover"
-      sizes="430px"
+      // sizes="430px"
     />
     <strong className="text-3xl font-bold capitalize">{character.name}</strong>
     <p className="text-center text-lg">{character.description}</p>
