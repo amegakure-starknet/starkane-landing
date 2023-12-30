@@ -1,29 +1,38 @@
 import ImageSection from "components/containers/pagesections/ImageSection";
+import ImageSectionMobile from "components/containers/pagesections/ImageSectionMobile";
 import { default as heroImage } from "../../../public/images/mona-derecha3.png";
+import {useEffect, useState} from "react"
 
 const HeroSection = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    function updateVisibleSlides() {
+      setIsMobile(window.innerWidth < 768);
+    }
+    window.addEventListener("resize", updateVisibleSlides);
+    updateVisibleSlides();
+    console.log("mobile: ", isMobile);
+  });
+
   return (
-    <ImageSection
-      image={heroImage}
-      className="bg-black bg-opacity-25"
-      height="h-screen"
-      sectionId="top"
-    >
-      {/* <div className="absolute left-[50%] bottom-[40%] m-auto translate-x-[-50%] space-y-6 text-center text-white sm:bottom-10">
-        <p className="text-3xl font-bold">AVAILABLE NOW</p>
-        <div className="flex flex-col items-center gap-6 sm:flex-row">
-          <button aria-label="Go to Steam page" className="btn-primary text-xl">
-            BUY STEAM
-          </button>
-          <button
-            aria-label="Go to Epic Store page"
-            className="btn-primary text-xl"
-          >
-            BUY EPIC
-          </button>
-        </div>
-      </div> */}
-    </ImageSection>
+    <>
+      {isMobile ? (
+        <ImageSectionMobile
+          image={heroImage}
+          className="bg-black bg-opacity-25"
+          height="h-screen"
+          sectionId="top"
+        />
+      ) : (
+        <ImageSection
+          image={heroImage}
+          className="bg-black bg-opacity-25"
+          height="h-screen"
+          sectionId="top"
+        />
+      )}
+    </>
   );
 };
 

@@ -9,7 +9,7 @@ import type { NextPage } from "next";
 
 const Home: NextPage = () => {
   return (
-    <Page title="Cavon">
+    <Page title="Starkane">
       {/* Hero section */}
       <HeroSection />
 
