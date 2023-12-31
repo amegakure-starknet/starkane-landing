@@ -1,4 +1,4 @@
-import fondo from "../../../public/images/fondo-screen.jpg";
+import fondo from "../../../public/images/new_mid_background.png";
 import { CharacterDetail } from 'components/CharacterSelected/CharacterDetail';
 import { CharactersList } from 'components/CharactersList';
 import type { Character } from 'types';
@@ -21,7 +21,7 @@ const ScreenshotSection = () => {
     <ImageSection
       sectionId="screenshots"
       image={fondo}
-      className="bg-black bg-opacity-20 flex flex-col flex-1 items-center justify-center transition-all lg:flex-row"
+      className="flex flex-col flex-1 items-center justify-center transition-all lg:flex-row"
       height="h-screen"
       // className="flex flex-col flex-1 items-center justify-center gap-12 transition-all lg:flex-row"
       // className="py-10 flex flex-col flex-1 items-center justify-center gap-12 transition-all 2xl:-mt-[120px] lg:flex-row"

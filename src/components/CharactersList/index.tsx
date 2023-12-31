@@ -15,7 +15,7 @@ const CharactersList = ({
   onSelect,
 }: CharactersListProps) => (
   <div className="flex flex-1 flex-col items-stretch gap-y-8">
-    <h1 className="title-15 text-center">Select a Heroe</h1>
+    <h1 className="title-15 text-center">Select a Hero</h1>
     <ul className="flex flex-wrap justify-center gap-8">
       {charactersList.map((character) => (
         <CharacterThumbnail
