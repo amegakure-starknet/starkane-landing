@@ -14,8 +14,9 @@ const CharactersList = ({
   selectedCharacter,
   onSelect,
 }: CharactersListProps) => (
+  <>
   <div className="2xl:h-screen flex flex-1 flex-col items-stretch gap-y-8">
-    <h1 className="title-1 text-center font-bold uppercase tracking-widest 2xl:py-20 py-5 text-brown">
+    <h1 className="title-1 text-center font-bold uppercase tracking-widest 2xl:pt-20 py-5 text-brown">
       Select Hero
     </h1>
     <ul className="flex flex-wrap justify-center gap-8">
@@ -24,11 +25,21 @@ const CharactersList = ({
           key={character.name}
           isSelected={selectedCharacter?.name === character.name}
           character={character}
-          onSelect={onSelect}
-        />
+          onSelect={onSelect} />
       ))}
     </ul>
-  </div>
+    <div className="flex flex-wrap justify-center py-5">
+      <video
+          src="/assets/avelyn-demo.mp4"
+          width="450px"
+          height="auto"
+          autoPlay
+          muted
+          loop
+      />
+    </div>
+    </div>
+    </>
 );
 
 export { CharactersList };
