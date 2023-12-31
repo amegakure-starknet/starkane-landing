@@ -5,6 +5,7 @@ import { CharacterSelected } from '~/components/CharacterSelected';
 import { CharactersList } from '~/components/CharactersList';
 import VideoSection from '~/containers/VideoSection';
 import ImageSection from '~/containers/ImageSection';
+import MediaSection from '~/containers/MediaSection';
 import type { Character } from '~/types';
 import { useEffect } from "react"
 
@@ -49,6 +50,7 @@ export default function Home() {
         <CharacterSelected character={selectedCharacter} />
       </ContentWrapper>
     </div>
+    <MediaSection/>
     </>
   );
 }
