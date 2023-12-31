@@ -9,8 +9,8 @@ const oxanium = Oxanium({
 });
 
 export const metadata = {
-  title: 'X-Men',
-  description: 'Web application to select x-men character',
+  title: 'Starkane',
+  description: '',
 };
 
 export default function RootLayout({

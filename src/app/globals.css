@@ -73,3 +73,21 @@ body {
   width: 100%;
   object-fit: cover;
 }
+
+.bg-hero {
+  background-image: url('/assets/bg.png');
+  background-position: "center";
+  background-size: "cover";
+  background-repeat: "no-repeat";
+  width: "100vw";
+  height: "100vh";
+}
+
+@font-face {
+  font-family: 'Genshin';
+  src: url(../font/genshin.ttf);
+}
+
+.text-brown {
+  color: #98745c;
+}

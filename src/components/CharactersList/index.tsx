@@ -15,7 +15,7 @@ const CharactersList = ({
   onSelect,
 }: CharactersListProps) => (
   <div className="2xl:h-screen flex flex-1 flex-col items-stretch gap-y-8">
-    <h1 className="h2 text-center text-xl font-bold uppercase tracking-widest 2xl:py-20 py-5">
+    <h1 className="h2 text-center text-xl font-bold uppercase tracking-widest 2xl:py-20 py-5 text-brown">
       Select Hero
     </h1>
     <ul className="flex flex-wrap justify-center gap-8">

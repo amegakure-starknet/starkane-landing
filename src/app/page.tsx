@@ -21,7 +21,7 @@ export default function Home() {
       sectionId="top"
     />
     {/* 2xl:-mt-[120px] */}
-    <div className="flex flex-col flex-1 items-center justify-center gap-12 transition-all lg:flex-row">
+    <div className="flex flex-col flex-1 items-center justify-center gap-12 transition-all lg:flex-row bg-hero">
       <ContentWrapper>
         <CharactersList
           selectedCharacter={selectedCharacter}
