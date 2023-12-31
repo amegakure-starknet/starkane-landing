@@ -1,13 +1,17 @@
-# Cavon
+# Character Selector
 
-A website made for my exam project in 'Digital Design og Udvikling' (DDU) at Gymnasiet HTX Lillebælt.
+This is a [Next.js](https://nextjs.org/) project version of a [x-men selector](https://github.com/devemdobro/x-men-szpc) application.
 
-The website is made with Next.js, TailwindCSS, and TypeScript.
+## Objective
 
-Hosted on Vercel.com.
+- Create a character selector using x-men characters.
 
-## Development
+## Functional Requirements
 
-```bash
-npm run dev
-```
+- List selectables characters
+- On hover one character thumbnail must show blue border and display your details;
+- Select character always that mouse hover in your thumbnail;
+
+## Deploy
+
+The project has deployed on [Vercel](https://character-selector.vercel.app/);
