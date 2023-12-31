@@ -5,7 +5,7 @@ const MediaSection = () => {
     <Section sectionId="media" className="py-20 bg-surface py-10 text-on-surface bg-hero">
       <div className="h-full w-full undefined">
         <div className="mx-auto h-full w-[90vw] max-w-[75rem] text-center ">
-          <h1 className="h2 text-center text-xl font-bold uppercase tracking-widest text-brown">
+          <h1 className="title-1 text-center font-bold uppercase tracking-widest text-brown">
             Trailer
           </h1>
           <iframe

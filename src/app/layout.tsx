@@ -20,7 +20,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={oxanium.className}>
+      <body>
+      {/* <body className={oxanium.className}> */}
         <DefaultLayout>{children}</DefaultLayout>
       </body>
     </html>

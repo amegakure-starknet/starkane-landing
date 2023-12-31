@@ -100,3 +100,7 @@ body {
   width: "100vw";
   height: "100vh";
 }
+
+.title-1 {
+  @apply mb-6 text-5xl font-bold uppercase;
+}
