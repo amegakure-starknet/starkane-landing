@@ -1,7 +1,7 @@
 import { ComponentProps } from 'react';
 
-import { charactersList } from 'consts/characters';
-import { Character } from 'types';
+import { charactersList } from '~/consts/characters';
+import { Character } from '~/types';
 
 import { CharacterThumbnail } from './CharacterThumbnail';
 
@@ -14,8 +14,10 @@ const CharactersList = ({
   selectedCharacter,
   onSelect,
 }: CharactersListProps) => (
-  <div className="flex flex-1 flex-col items-stretch gap-y-8">
-    <h1 className="title-15 text-center">Select a Hero</h1>
+  <div className="2xl:h-screen flex flex-1 flex-col items-stretch gap-y-8">
+    <h1 className="h2 text-center text-xl font-bold uppercase tracking-widest 2xl:py-20 py-5">
+      Select Hero
+    </h1>
     <ul className="flex flex-wrap justify-center gap-8">
       {charactersList.map((character) => (
         <CharacterThumbnail
