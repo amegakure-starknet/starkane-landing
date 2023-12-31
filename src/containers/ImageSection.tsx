@@ -13,7 +13,7 @@ const VideoSection: ComponentType<Props> = ({
     <Section padding={false} sectionId={sectionId}>
         <main className="main bg-mobile">
             <div className="contents">
-              <div className={""} >
+              <div>
                 <a href={"https://twitter.com/0xstarkane"} target="_blank" rel="noopener noreferrer">
                   <Image src="/assets/starkane-rend.png" alt="Cavon logo" width={440} height={150} />
                 </a>
@@ -26,6 +26,9 @@ const VideoSection: ComponentType<Props> = ({
                   <Image src="/assets/dojo-logo.png" alt="Dojo logo" width={100} height={100} />
                 </a>
               </div>
+              <a className="pt-5" href={"https://itch.io/jam/dojo-holiday-game-jam-3/entries"} target="_blank" rel="noopener noreferrer">
+                <Image src="/assets/play-now.png" alt="play now" width={220} height={70} />
+              </a>
             </div>
         </main>
     </Section>
