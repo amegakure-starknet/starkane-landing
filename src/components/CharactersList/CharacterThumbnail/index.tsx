@@ -26,6 +26,7 @@ const CharacterThumbnail = ({
         alt={character.imageAlt}
         fill
         priority
+        className='rounded-md	'
         sizes="120px"
       />
     </div>

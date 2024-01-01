@@ -16,7 +16,7 @@ const CharacterDetail = ({ character }: CharacterDetailProps) => (
       className="object-cover"
       sizes="430px"
     />
-    <strong className="text-3xl font-bold capitalize text-brown">{character.name}</strong>
+    <strong className="text-3xl font-bold capitalize text-brown py-5">{character.name}</strong>
     <p className="text-center text-lg text-brown">{character.description}</p>
   </span>
 );

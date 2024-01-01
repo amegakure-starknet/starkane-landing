@@ -29,14 +29,36 @@ const CharactersList = ({
       ))}
     </ul>
     <div className="flex flex-wrap justify-center py-5">
-      <video
-          src="/assets/avelyn-demo.mp4"
-          width="450px"
-          height="auto"
-          autoPlay
-          muted
-          loop
-      />
+        {selectedCharacter?.name === 'Archer' && (
+          <video
+            src="/assets/archer-demo.mp4"
+            width="470px"
+            height="auto"
+            autoPlay
+            muted
+            loop
+          />
+        )}
+        {selectedCharacter?.name === 'Cleric' && (
+          <video
+            src="/assets/cleric-demo.mp4"
+            width="470px"
+            height="auto"
+            autoPlay
+            muted
+            loop
+          />
+        )}
+        {selectedCharacter?.name === 'Mona' && (
+          <video
+            src="/assets/mona-demo.mp4"
+            width="470px"
+            height="auto"
+            autoPlay
+            muted
+            loop
+          />
+        )}
     </div>
     </div>
     </>
