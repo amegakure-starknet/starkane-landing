@@ -49,9 +49,9 @@ const CharactersList = ({
             loop
           />
         )}
-        {selectedCharacter?.name === 'Mona' && (
+        {selectedCharacter?.name === 'Avelyn' && (
           <video
-            src="/assets/mona-demo.mp4"
+            src="/assets/avelyn-demo.mp4"
             width="470px"
             height="auto"
             autoPlay

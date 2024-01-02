@@ -5,9 +5,9 @@ export const charactersList: Character[] = [
     name: 'Avelyn',
     description:
       '',
-    thumbnailUrl: '/assets/gameplay/mona-mini.png',
-    imageUrl: '/assets/gameplay/mona.png',
-    imageAlt: 'Heroe Mona',
+    thumbnailUrl: '/assets/gameplay/avelyn-mini.png',
+    imageUrl: '/assets/gameplay/avelyn.png',
+    imageAlt: 'Heroe Avelyn',
   },
   {
     name: 'Archer',
