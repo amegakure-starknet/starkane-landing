@@ -24,7 +24,7 @@ const VideoSection: ComponentType<Props> = ({
                   <Image src="/assets/dojo-logo.png" alt="Dojo logo" width={100} height={100} />
                 </a>
               </div>
-              <a className="pt-5" href={"https://itch.io/jam/dojo-holiday-game-jam-3/entries"} target="_blank" rel="noopener noreferrer">
+              <a className="pt-5" href={"https://dubzn.itch.io/starkane"} target="_blank" rel="noopener noreferrer">
                 <Image src="/assets/play-now.png" alt="play now" width={220} height={70} />
               </a>
             </div>
