@@ -2,7 +2,7 @@ import type { Character } from '~/types';
 
 export const charactersList: Character[] = [
   {
-    name: 'Mona',
+    name: 'Avelyn',
     description:
       '',
     thumbnailUrl: '/assets/gameplay/mona-mini.png',
