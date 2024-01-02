@@ -10,7 +10,7 @@ export const charactersList: Character[] = [
     imageAlt: 'Heroe Avelyn',
   },
   {
-    name: 'Archer',
+    name: 'Sylph',
     description:
       '',
     thumbnailUrl: '/assets/gameplay/archer-mini.png',
@@ -18,7 +18,7 @@ export const charactersList: Character[] = [
     imageAlt: 'Heroe Archer',
   },
   {
-    name: 'Cleric',
+    name: 'Page',
     description:
       '',
     thumbnailUrl: '/assets/gameplay/cleric-mini.png',

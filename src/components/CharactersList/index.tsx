@@ -29,7 +29,7 @@ const CharactersList = ({
       ))}
     </ul>
     <div className="flex flex-wrap justify-center py-5">
-        {selectedCharacter?.name === 'Archer' && (
+        {selectedCharacter?.name === 'Sylph' && (
           <video
             src="/assets/archer-demo.mp4"
             width="470px"
@@ -39,7 +39,7 @@ const CharactersList = ({
             loop
           />
         )}
-        {selectedCharacter?.name === 'Cleric' && (
+        {selectedCharacter?.name === 'Page' && (
           <video
             src="/assets/cleric-demo.mp4"
             width="470px"
