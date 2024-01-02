@@ -9,7 +9,7 @@ const MediaSection = () => {
             Trailer
           </h1>
           <iframe
-            src="https://www.youtube.com/embed/6YnxuDwMUlw?si=NFIDOkP44Mjt-JDv"
+            src="https://www.youtube.com/embed/hy_h6x8kFAU?si=19Ll-JMz4BQtSz4U"
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
